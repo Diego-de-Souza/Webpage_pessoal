@@ -48,21 +48,21 @@ containerTitlePortfolio.addEventListener('click', ()=>{
         if(statusPortfolio == false){ 
             containerPaiPortfolio.style.height = 'auto';
             statusPortfolio = true;
-            btnAcessPortfolio.style.backgroundImage= "url(../src/assets/img/home/menos.png)";        
+            btnAcessPortfolio.style.backgroundImage= "url(../assets/img/home/menos.png)";        
         }else{
             containerPaiPortfolio.style.height = '3.5rem';
             statusPortfolio=false
-            btnAcessPortfolio.style.backgroundImage='url(../src/assets/img/home/sinal-de-adicao.png)';
+            btnAcessPortfolio.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
         }
     }else{
         if(statusPortfolio == false){ 
             containerPaiPortfolio.style.height = 'auto';
             statusPortfolio = true;
-            btnAcessPortfolio.style.backgroundImage= "url(../src/assets/img/home/menos.png)";        
+            btnAcessPortfolio.style.backgroundImage= "url(../assets/img/home/menos.png)";        
         }else{
             containerPaiPortfolio.style.height = '5rem';
             statusPortfolio=false
-            btnAcessPortfolio.style.backgroundImage='url(../src/assets/img/home/sinal-de-adicao.png)';
+            btnAcessPortfolio.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
         }
     }
 })

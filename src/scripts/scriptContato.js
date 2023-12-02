@@ -9,21 +9,21 @@ containerTitleContato.addEventListener('click', ()=>{
     if(statusContato == false){ 
       containerPaiContato.style.height = 'auto';
       statusContato = true;
-      btnAcessContato.style.backgroundImage= "url(../src/assets/img/home/menos.png)";
+      btnAcessContato.style.backgroundImage= "url(../assets/img/home/menos.png)";
   }else{
       containerPaiContato.style.height = '3.5rem';
       statusContato=false
-      btnAcessContato.style.backgroundImage='url(../src/assets/img/home/sinal-de-adicao.png)';
+      btnAcessContato.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
   }
   }else{
     if(statusContato == false){ 
         containerPaiContato.style.height = 'auto';
         statusContato = true;
-        btnAcessContato.style.backgroundImage= "url(../src/assets/img/home/menos.png)";
+        btnAcessContato.style.backgroundImage= "url(../assets/img/home/menos.png)";
     }else{
         containerPaiContato.style.height = '5rem';
         statusContato=false
-        btnAcessContato.style.backgroundImage='url(../src/assets/img/home/sinal-de-adicao.png)';
+        btnAcessContato.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
     }
   }
 })
