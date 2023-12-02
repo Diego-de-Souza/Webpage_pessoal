@@ -2,11 +2,773 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="src/scripts/scriptAbout.js" defer></script>
+    <script src="src/scripts/scriptAbility.js" defer></script>
+    <script src="src/scripts/scriptEducation.js" defer></script>
+    <script src="src/scripts/scriptPortfolio.js" defer></script>
+    <script src="src/scripts/scriptCertificado.js" defer></script>
+    <script src="src/scripts/scriptContato.js" defer></script>
+    <link rel="stylesheet" href="/src/styles/style.css">
+    <link rel="shortcut icon" href="src/assets/img/home/favicon.ico" type="image/x-icon">
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+
+    </header>
+    <main>
+      <section id="containerredes__midia">
+        <a href="https://www.instagram.com/jahdigao/" target="_blank"><img src="src/assets/img/home/footer/instagram.png" alt="icone link do Instagram"></a>
+        <a href="https://github.com/Diego-de-Souza" target="_blank"><img src="src/assets/img/home/footer/github.png" alt="icone link do GitHub"></a>
+        <a href="https://www.linkedin.com/in/diego-de-souza-lima-campus-expert/" target="_blank"><img src="src/assets/img/home/footer/linkedin.png" alt="icone link do linkedin"></a>
+      </section>
+        <section id="containerBanner">
+            <section id="bannerPrincipal">
+              <div id="bannerPrincipal__escrita">
+                <p>Hi, I'm</p>
+                <div id="bannerPrincipal__escrita__inp">
+                  <div id="codTitle">&#60</div>
+                  <h1 id="identificaoInicial"> Diego de Souza L.</h1>
+                </div>
+                  <p>Dev FullStack</p>
+              </div>
+              <div id="bannerPrincipal__imagem">
+                <img src="src/assets/img/home/banner/selfie_22102023.png" alt="" srcset="">
+              </div>
+            </section>
+        </section>
+        <!---->
+        <section class="containerCentral">
+            <section id="containerAbout">
+                <section id="containerAbout__title">
+                  <div id="containerAbout__title__btnAcess"></div>
+                  <div id="containerAbout__title__section">
+                    <div>&#8656;</div>
+                    <h1>About</h1>
+                    <div>&#8658;</div>
+                  </div>
+                </section>
+                <section id="containerAbout__description">
+                  <h2>My journey</h2>
+                  <section class="containerAbout__description-section">
+                    <div class="containerAbout__description-section__img" >
+              
+                      <img src="src/assets/img/home/about/fundo-de-programacao-com-html-pequena.jpg"
+                      alt=""
+                      srcset=""
+                      class="containerAbout__description-section__img__container abracadabra"
+                      >
+                      <div class="containerAbout__description-section__img-shadow abracadabra"
+                      ></div>
+              
+                    </div>
+                    <article class="containerAbout__description-section__text">
+                      <p>Estudante de Engenharia da computação na FESA – Faculdade Engenheiro Salvador Arena .– SBC, na qual faz parte de um projeto pessoal de aprendizagem de qualidade para que num futuro próximo, além de ser um excelente profissional, possa transmitir conhecimento aos mais necessitados de forma prática, de fácil compreensão e aplicações que facilitam a vida dos usuários de tecnologia. Para complemento das minhas habilidades constantemente estou cursando bootcamps, cursos online e participando de eventos tecnológicos de linguagem de programação, desenvolvimento de software, desenvolvimento web e desenvolvimento mobile.</p>
+                      <p>Tendo conhecimento como desenvolvedor de websites, criando layouts responsivos para diferentes plataformas de visualização, desenvolvimento de aplicativos com linguagens orientada a objeto, metodologias ágeis e desenvolvimento de projeto em equipes. Concluindo, apaixonado por tecnologia, dinâmico, comprometido, com bom relacionamento intrapessoal e sempre buscando atualizar seus conhecimentos.</p>
+                    </article>
+                  </section>
+                  <h2>A little more about my journey</h2>
+                  <section class="containerAbout__description-section">
+                    <div class="containerAbout__description-section__img" [ngClass]="getClassAbout()">
+                      <img src="src/assets/img/home/about/hobby.jpg" alt="" srcset=""
+                      class="containerAbout__description-section__img__container abracadabra">
+                      <div class="containerAbout__description-section__img-shadow abracadabra">
+                      </div>
+                    </div>
+                    <article class="containerAbout__description-section__text">
+                      <p>Quando era pequeno adorava desmontar e tentar montar novamente aparelhos eletrônicos como o som da minha mãe, que sempre sobrava algumas peças e custava um final de semana de castigo, vídeo games, computador entre outras coisas. Daí vem o gosto pela parte de eletrônica, de 2002 a 2004 cursei o CAI – Curso de Aprendizagem Industrial de elétrica, mais tarde em Janeiro de 2012 à Dezembro de 2013 uma nova jornada com o curso de Técnico em Eletromecânica industrial, ainda de Agosto de 2014 à junho de 2017 cursei o curso superior de Tecnólogo em Mecatrônica industrial onde tive um contato maior com programação, foi amor a primeiro codada.</p>
+                      <p>Mesmo estando apaixonado por programação, decidi continuar como manutenção industrial na qual também tinha uma pequena raiz na minha trajetória.</p>
+                      <p>Mas em 2020 na pandemia vi a oportunidade de rever programação e resolvi que era aquilo onde meu coração claramente estava, como existia o distanciamento fiz alguns cursos online de lógica de programação, desenvolvimento web, desenvolvimento mobile e banco de dados. Em Agosto de 2022 iniciei a faculdade de Engenharia da computação na qual a cada dia junto com cursos e bootcamps afirmam minha paixão pela programação.</p>
+                    </article>
+                  </section>
+                  <h2>My hobbies</h2>
+                  <section class="containerAbout__description-section">
+                    <div class="containerAbout__description-section__img" [ngClass]="getClassAbout()">
+                      <img src="src/assets/img/home/about/fundo-de-programacao-com-html-pequena.jpg" alt="" srcset=""       class="containerAbout__description-section__img__container abracadabra">
+                      <div class="containerAbout__description-section__img-shadow abracadabra">
+                      </div>
+                    </div>
+                    <article class="containerAbout__description-section__text">
+                      <p>Talvez pareça mentira, mas nas horas vagas adoro praticar esportes como futebol (aquela pelada de domingo como chamamos) com os amigos, brincar com meus filhos no parque (olha que eles tem uma energia que não cabe no corpo deles)</p>
+                      <p>É claro que não poderia faltar aquele momento de programação sempre aprendendo mais e desenvolvendo minhas habilidades em programação, é neste momento que as horas voam.</p>
+                      <p>companheira costuma dizer que mesmo que eu diga que quero eu não consigo ficar longe da programação (é lógico que eu não vou dizer que quero, rsrsrs), é aquela vontade que te faz acordar 30min ou até 1 hora mais cedo para dar aquela codada.</p>
+                      <p>Em meio a trabalho, família e estudo, sempre naquele tempinho vago diversifico entre ler aquele manga e jogar ( antigamente era no vídeo game, hoje é só mesmo pelo celular). </p>
+                      <p id="containerAbout__description-section__text-hidden">
+                        Hum, você descobriu a texto escondido neh!!! Só vou aproveitar este espaço para agradecer minha parceira e meus filhos que são minha base, o motivo de acordar todos os dias e a cada dia procurar sempre uma melhora pessoal e profissional.
+                      </p>
+                    </article>
+                  </section>
+                </section>
+              </section>
+        </section>
+        <!---->
+        <section class="containerCentral">
+          <section id="containerAbility">
+            <section id="containerAbility__title" >
+              <div id="containerAbility__title__btnAcess" ></div>
+              <div id="containerAbility__title__section">
+                <div>&#8656;</div>
+                <h1>Skills</h1>
+                <div>&#8658;</div>
+              </div>
+            </section>
+            <section id="containerAbility__sections">
+              <h2>My skills</h2>
+              <section id="containerAbility__sections-skills">
+                <section class="containerAbility__sections-skills__container">
+                  <h3>Language</h3>
+                  <!--container skill javascript-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/js.png" alt="icone JavaScript" srcset="" title="Icone JavaScript">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        JavaScript
+                      </h3>
+                      <div class="progress-bar1 skill1">
+                        95%
+                      </div>
+                    </div>
+
+                  </div>
+                  <!--Container skill CSharp-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/do-sustenido.png" alt="icone CSharp" srcset="" title="Icone C#">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        C#
+                      </h3>
+                      <div class="progress-bar1 skill2">
+                        90%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill angular-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/file_type_angular_icon_130754.png" alt="icone Angular JS" srcset="" title="Icone Angular js">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Angular Js
+                      </h3>
+                      <div class="progress-bar1 skill3">
+                        70%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill kotlin-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/file_type_kotlin_icon_130487.png" alt="icone kotlin" srcset="" title="Icone Kotlin">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Kotlin
+                      </h3>
+                      <div class="progress-bar1 skill4">
+                        50%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill HTML5-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/html5.png" alt="icone HTML5" srcset="" title="Icone HTML5">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        HTML5
+                      </h3>
+                      <div class="progress-bar1 skill5">
+                        95%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill SQL-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/sql_racer_gamedatabase_sql_1526.png" alt="icone SQL" srcset="" title="Icone SQL">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        SQL
+                      </h3>
+                      <div class="progress-bar1 skill6">
+                        60%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill Java-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/java.png" alt="icone Java" srcset="" title="Icone Java">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Java
+                      </h3>
+                      <div class="progress-bar1 skill7">
+                        40%
+                      </div>
+                    </div>
+                    
+                  </div>
+                </section>
+                <section class="containerAbility__sections-skills__container">
+                  <h3>Software</h3>
+                  <!--container skill-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/microsoft_visual_studio_code_macos_bigsur_icon_189957.png" alt="icone VS Code" srcset="" title="Icone VS Code">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        VS Code
+                      </h3>
+                      <div class="progress-bar1 skill8">
+                        90%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill Visual Studio-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/Visual_Studio_23517.png" alt="icone Visual Studio" srcset="" title="Icone Visual Studio">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Visual Studio
+                      </h3>
+                      <div class="progress-bar1 skill9">
+                        75%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill android studio-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/android_studio_alt_macos_bigsur_icon_190394.png" alt="icone Android Studio" srcset="" title="Icone Android Studio">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Android Studio
+                      </h3>
+                      <div class="progress-bar1 skill10">
+                        70%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill gitHub-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/github-logo_icon-icons.com_73546.png" alt="icone GitHub" srcset="" title="Icone GitHub">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        GitHub
+                      </h3>
+                      <div class="progress-bar1 skill11">
+                        86%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill intellij-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/intellij_alt_macos_bigsur_icon_190060.png" alt="icone Intellij" srcset="" title="Icone Intellij">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Intellij
+                      </h3>
+                      <div class="progress-bar1 skill12">
+                        40%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill photoshop-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/icon_photoshop.png" alt="icone Photoshop" srcset="" title="Icone Photoshop">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Photoshop
+                      </h3>
+                      <div class="progress-bar1 skill13">
+                        60%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill coreldraw-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/coreldraw_alt_icon_132465.png" alt="icone Corel Draw" srcset="" title="Icone Corel Draw">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Corel Draw
+                      </h3>
+                      <div class="progress-bar1 skill14">
+                        70%
+                      </div>
+                    </div>
+                    
+                  </div>
+                  <!--container skill gimp-->
+                  <div class="skills"> 
+
+                    <figure class="containerProgresso__containerIcon">
+                      <img src="src/assets/img/home/ability/icons/gimp_icon_161279.png" alt="icone Gimp" srcset="" title="Icone Gimp">
+                    </figure>
+                    <div class="containerProgresso__barraProgresso">
+                      <h3>  
+                        Gimp
+                      </h3>
+                      <div class="progress-bar1 skill15">
+                        70%
+                      </div>
+                    </div>
+                    
+                  </div>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+        <!---->
+        <section class="containerCentral">
+          <section id="containerEducation" >
+            <section id="containerEducation__title" >
+              <div id="containerEducation__title__btnAcess" ></div>
+              <div id="containerEducation__title__section">
+                <div>&#8656;</div>
+                <h1>Education</h1>
+                <div>&#8658;</div>
+              </div>
+            </section>
+            <section id="containerEducation__description">
+              <h2>My Education</h2>
+              <section class="containerEducation__description__courses">
+                  <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset="">
+                  </div>
+                  <section class="containerEducation__description__courses__description">
+                    <h3>Engenharia da Computação</h3>
+                    <h4>FESA - Faculdade Engenheiro Salvador Arena</h4>
+                    <h5>De Agosto de 2022 - Atual</h5>
+                    <p>O curso de Engenharia da computação visa possibilitar o aluno a projetar, desenvolver e implementar equipamentos e dispositivos computacionais, Automatizar máquinas com sistemas computacionais baseados em inteligência artificial, criar sistemas de processamento e tratamento de dados e automatizar máquinas e equipamentos no setor da robótica.</p>
+                  </section>
+              </section>
+              <section class="containerEducation__description__courses">
+                <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset=""></div>
+                <section class="containerEducation__description__courses__description">
+                  <h3>Tecnologo em Mecatrônica Industrial</h3>
+                  <h4>FESA - Faculdade Engenheiro Salvador Arena</h4>
+                  <h5>De Agosto de 2014 - Junho de 2017</h5>
+                  <p>O curso de Tecnólogo em Mecatrônica Industrial tem como foco em gerir o desenvolvimento, implementação e manutenção de sistemas mecatrônicos de produção industrial; enfrentar os desafios da implantação de novas tecnologias, tendo em vista as mudanças nos processos de organização e gestão do trabalho; e desenvolver aplicações com máquinas, equipamentos, instrumentos e softwares em ambientes de ensino atualizados, como laboratórios de robótica, automação, Internet das Coisas, microcontroladores, máquinas elétricas, modelagem e prototipagem 3D, usinagem CNC, entre outros</p>
+                </section>
+              </section>
+              <section class="containerEducation__description__courses">
+                <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset="">
+                </div>
+                <section class="containerEducation__description__courses__description">
+                  <h3>Tecnico em Eletromecânica Industrial</h3>
+                  <h4>SENAI - Manuel Garcia Filho </h4>
+                  <h5>De Janeiro de 2012 - Dezembro de 2013</h5>
+                  <p>O curso habilita profissionais técnicos de nível médio em Eletromecânica, visando suprir a demanda do mercado por profissionais qualificados para atuarem em: Montagem e manutenção de sistemas, máquinas e equipamentos de base elétrica e/ou mecânica, planejamento e realização de manutenção e reparosnas instalações elétrica e mecânica dos sistemas e analise de desenhos técnicos.</p>
+                </section>
+              </section>
+              <section class="containerEducation__description__courses">
+                <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset="">
+                </div>
+                <section class="containerEducation__description__courses__description">
+                  <h3>Ensino médio regular</h3>
+                  <h4>E.E.P.G. Prof. Francisco Cristiano de freitas</h4>
+                  <h5>Concluído - Dezembro de 2011</h5>
+                  <p>Tem como currículo básico para as escolas da rede estadual nos níveis
+                    de Ensino Fundamental (Ciclo II) e Ensino Médio. Com isso, pretendeu apoiar o trabalho realizado nas escolas estaduais e contribuir para a
+                    melhoria da qualidade das aprendizagens dos
+                    alunos</p>
+                </section>
+              </section>
+              <h2>My Specializations</h2>
+              <section class="containerEducation__description__courses">
+                <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset="">
+                </div>
+                <section class="containerEducation__description__courses__description">
+                  <h3>Presencial - Desenvolvimento de apps para Android</h3>
+                  <h4>SENAI SP - Anchieta </h4>
+                  <h5>De Abril de 2022 - Junho de 2022</h5>
+                  <p>68h - de aprendizado básico no desenvolvimento de apps para android, utilização de ferramentas de modelamento e desenvolvimento como Android Studio, e programação como Kotlin e xml.</p>
+                </section>
+              </section>
+              <section class="containerEducation__description__courses">
+                <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset="">
+                </div>
+                <section class="containerEducation__description__courses__description">
+                  <h3>Informática - pacote Office</h3>
+                  <h4>Compuway - ensino interativo</h4>
+                  <h5>De Abril de 2022 - Novembro de 2022</h5>
+                  <p>92h - de aprendizado em informática, introdução, windows ME, word2000, excel2000, power point2000, Internet.</p>
+                </section>
+              </section>
+              <section class="containerEducation__description__courses">
+                <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset="">
+                </div>
+                <section class="containerEducation__description__courses__description">
+                  <h3>Montador e reparador de comandos elétricos</h3>
+                  <h4>SENAI - Manuel Garcia Filho</h4>
+                  <h5>De Julho de 2009 - Dezembro de 2009</h5>
+                  <p>180h - no desenvolvimento de criação e manutenção de comandos elétricos industriais.</p>
+                </section>
+              </section>
+              <section class="containerEducation__description__courses">
+                <div class="containerEducation__description__courses__point"><img src="src/assets/img/home/education/barra_education.png" alt="" srcset="">
+                </div>
+                <section class="containerEducation__description__courses__description">
+                  <h3>Eletricidade Geral</h3>
+                  <h4>SENAI - Manuel Garcia Filho</h4>
+                  <h5>De Janeiro de 2009 - Abril de 2009</h5>
+                  <p>120h - instalação e manutenção de redes elétricas industriais e residenciais.</p>
+                </section>
+              </section>
+          
+            </section>
+          </section>
+        </section>
+        <!---->
+        <section class="containerCentral">
+          <section id="containerPortfolio">
+            <section id="containerPortfolio__title">
+              <div id="containerPortfolio__title__btnAcess"></div>
+              <div id="containerPortfolio__title__section">
+                <div>&#8656;</div>
+                <h1>Portfolio</h1>
+                <div>&#8658;</div>
+              </div>
+            </section>
+            <section id="containerPortfolio__works">
+              <h2>My Portfolio</h2>
+              <section class="containerPortfolio__works__link">
+                <nav>
+                  <ul>
+                    <li class="btnMenu" >Web</li>
+                    <li class="btnMenu" >Banco de Dados</li>
+                    <li class="btnMenu" >Software</li>
+                    <li class="btnMenu" >Mobile</li>
+                  </ul>
+                </nav>
+                <section id="containerPortfolio__works__container" >
+                  <div id="containerPortfolio__works__containerweb" class="containerON">
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 1 web">
+                      <a href="https://diego-de-souza.github.io/gdcaw_webpages/" target="_blank" >
+                        <img src="src/assets/img/home/portfolio/web0.png" alt="" srcset="" class="teste">
+                    
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 2 web">
+                      <a href="https://diego-de-souza.github.io/Projeto_Limp_Solucoes_de_limpeza/index.html" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web1.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 3 web">
+                      <a href="https://ctgranchodasaudade.com.br/#/" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web2.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 4 web">
+                      <a href="https://diego-de-souza.github.io/playstation_store_remaster/playstation_store_remaster#/" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web3.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 5 web">
+                      <a href="https://diego-de-souza.github.io/Curr-culo/" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web4.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 6 web">
+                      <a href="https://diego-de-souza.github.io/Avaliador-de-Herois/" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web5.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 7 web">
+                      <a href="https://diego-de-souza.github.io/angular-buzzfeed/angular-buzzfeed/" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web6.jpg" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 8 web">
+                      <a href="https://diego-de-souza.github.io/Pokedex_desafio-Dio/" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web7.jpg" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 9 web">
+                      <a href="https://diego-de-souza.github.io/Projeto_Estacionamento/" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web8.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 10 web">
+                      <a href="https://github.com/Diego-de-Souza/blogComAngular/tree/main" target="_blank">
+                        <img src="src/assets/img/home/portfolio/web10.png" alt="" srcset="">
+                      </a></div>
+                  </div>
+                  <div id="containerPortfolio__works__containerBancoDados" class="containerOFF">
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 1 web">
+                      <a href="https://github.com/Diego-de-Souza/Modelamento_ofina_mecanica" target="_blank" >
+                        <img src="src/assets/img/home/portfolio/bancodados0.png" alt="" srcset="" class="teste">
+                    
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 2 web">
+                      <a href="https://github.com/Diego-de-Souza/Modelamento_e-commerce" target="_blank">
+                        <img src="src/assets/img/home/portfolio/bancodados1.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 3 web">
+                      <a href="https://github.com/Diego-de-Souza/Banco_de_dados_ecommerce" target="_blank">
+                        <img src="src/assets/img/home/portfolio/bancodados2.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 4 web">
+                      <a href="https://github.com/Diego-de-Souza/Banco-de-dados-oficina-mecanica" target="_blank">
+                        <img src="src/assets/img/home/portfolio/bancodados3.png" alt="" srcset="">
+                      </a></div>
+                  </div>
+                  <div id="containerPortfolio__works__containerSoftware" class="containerOFF">
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 1 web">
+                      <a href="https://github.com/Diego-de-Souza/Santander-dev-week-2023" target="_blank" >
+                        <img src="src/assets/img/home/portfolio/software0.jpg" alt="" srcset="" class="teste">
+                    
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 2 web">
+                      <a href="https://github.com/Diego-de-Souza/Estudos_Java" target="_blank">
+                        <img src="src/assets/img/home/portfolio/software1.jpg" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 3 web">
+                      <a href="https://github.com/Diego-de-Souza/Modelamento_IPhone_Java" target="_blank">
+                        <img src="src/assets/img/home/portfolio/software2.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 4 web">
+                      <a href="https://github.com/Diego-de-Souza/app-controle-fluxo-Java" target="_blank">
+                        <img src="src/assets/img/home/portfolio/software3.png" alt="" srcset="">
+                      </a></div>
+                  </div>
+                  <div id="containerPortfolio__works__containerMobile" class="containerOFF">
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 1 web">
+                      <a href="https://github.com/Diego-de-Souza/Aplicativo-de-exposicao_github" target="_blank" >
+                        <img src="src/assets/img/home/portfolio/mobile0.png" alt="" srcset="" class="teste">
+                    
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 2 web">
+                      <a href="https://github.com/Diego-de-Souza/App_Business_card" target="_blank">
+                        <img src="src/assets/img/home/portfolio/mobile1.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 3 web">
+                      <a href="https://github.com/Diego-de-Souza/partidas_simulador_app" target="_blank">
+                        <img src="src/assets/img/home/portfolio/mobile2.png" alt="" srcset="">
+                      </a></div>
+                    <div class="containerPortfolio__works__containerProjetos" title="Projeto 4 web">
+                      <a href="https://github.com/Diego-de-Souza/APP_futbol_feminino_bootcamp" target="_blank">
+                        <img src="src/assets/img/home/portfolio/mobile3.png" alt="" srcset="">
+                      </a></div>
+                  </div>
+                </section>
+                
+              </section>
+            </section>
+          </section>
+        </section>
+        <!---->
+        <section class="containerCentral">
+          <section id="containerCertificates">
+            <section id="containerCertificates__title">
+              <div id="containerCertificates__title__btnAcess"></div>
+              <div id="containerCertificates__title__section">
+                <div>&#8656;</div>
+                <h1>Certificates</h1>
+                <div>&#8658;</div>
+              </div>
+            </section>
+            <section class="containerCertificates__itens">
+              <h2>My Certificates</h2>
+              <section id="containerCertificates__itens__ramificacao">
+                <!--Seção de certificados de contexto geral-->
+                <section class="containerCertificates__itens__ramificacao__tipo">
+                  <div class="containerCertificates__itens__ramificacao__tipo__title">
+                    <div id="containerCertificates__title__icon1"></div>
+                    <h3>Geral</h3>
+                  </div>
+                  <a href="" target="_blank" class="containerCertificates__itens__ramificacao__tipo__itens">Tecnologo em Mecatrônica Industrial
+                  </a>
+                  <a href="" class="containerCertificates__itens__ramificacao__tipo__itens" target="_blank">Informática - Compuway informática LTDA
+                  </a>
+                </section>
+                <!--Seção de certificados na area de tecnologia-->
+                <section class="containerCertificates__itens__ramificacao__tipo">
+                  <div class="containerCertificates__itens__ramificacao__tipo__title">
+                    <div id="containerCertificates__title__icon2"></div>
+                    <h3>Tecnologia</h3>
+                  </div>
+                  <section class="containerCertificates__itens__ramificacao__tipo__SubTipo">
+                    <div class="containerCertificates__itens__ramificacao__tipo__SubTipo__title">
+                      <h4>Front-end</h4>
+                    </div>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens">Angular</a>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens">HTML</a>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens">CSS</a>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens">JavaScript</a>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens">C#</a>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens">Java</a>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens">Python</a>
+                  </section>
+                  <section class="containerCertificates__itens__ramificacao__tipo__SubTipo">
+                    <div class="containerCertificates__itens__ramificacao__tipo__SubTipo__title">
+                      <h4>Back-end</h4>
+                    </div>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens" target="_blank">SQL
+                    </a>
+                    <a href="" class="containerCertificates__itens__ramificacao__tipo__itens" target="_blank">Node  Js
+                    </a>
+                  </section>
+                </section>
+              </section>
+            </section>
+          </section>
+        </section>
+        <!---->
+        <section class="containerCentral">
+          <section id="containerContact">
+            <section id="containerContact__title">
+              <div id="containerContact__title__btnAcess"></div>
+              <div id="containerContact__title__section">
+                <div>&#8656;</div>
+                <h1>Contact</h1>
+                <div>&#8658;</div>
+              </div>
+            </section>
+            <section class="containerContact__container">
+              <div id="containerContact__container__title">
+                <h2>Quer falar comigo?</h2>
+                <h2>Segue abaixo meios de contato</h2>
+              </div>
+              <section class="containerContact__container__redesSociais">
+                <a href="https://www.linkedin.com/in/diego-de-souza-lima-campus-expert/" target="_blank" rel="noopener noreferrer" title="Página pessoal no linkedin">
+                  <img src="src/assets/img/home/contato/linkedin.png" alt="" srcset="">
+                </a>
+                <a href="https://www.instagram.com/jahdigao/" target="_blank" rel="noopener noreferrer" title="Página pessoal no Instagram">
+                  <img src="src/assets/img/home/contato/instagram.png" alt="" srcset="">
+                </a>
+                <a href="https://github.com/Diego-de-Souza" target="_blank" rel="noopener noreferrer" title="Página pessoal de repositórios no GitHub">
+                  <img src="src/assets/img/home/contato/github.png" alt="" srcset="">
+                </a>
+                <a href="mailto:diegodesouza.souza@gmail.com" target="_blank" rel="noopener noreferrer" title="E-mail pessoal">
+                  <img src="src/assets/img/home/contato/mail-send.png" alt="" srcset="">
+                </a>
+                <a href="mailto:082220042@faculdade.cefsa.edu.br" target="_blank" rel="noopener noreferrer" title="E-mail educacional">
+                  <img src="src/assets/img/home/contato/tecnologia.png" alt="" srcset="">
+                </a>
+                <a href="https://www.youtube.com/channel/UC-pXJDmP8fYdsgC0u_EM4Eg" target="_blank" rel="noopener noreferrer" title="Página pessoal no Youtube">
+                  <img src="src/assets/img/home/contato/social.png" alt="" srcset="">
+                </a>
+              </section>
+              <section class="containerContact__container__formulario">
+                <figure>
+                  <img src="src/assets/img/home/contato/imgFormulariosvg.svg" alt="imagem do formulario" srcset="">
+                </figure>
+                <form id="formulario_Usuario">
+                  <!--campo de inserção do nome-->
+                  <div class="campoContato">
+                    <img src="src/assets/img/home/contato/usuario-masculino.png" alt="icone nome usuario" srcset="" class="imgFormulario">
+                    <div class="inputContatoCampo">
+                      <label for="username">*Nome</label>
+                      <input type="text" name="username" id="username" placeholder="Digite seu nome" autocomplete="off" required oninvalid="this.setCustomValidity('o nome deve conter no minimo 3 caracteres.')">
+                    </div>
+                  </div>
+                  <!--campo de inserção do email-->
+                  <div class="campoContato">
+                    <img src="src/assets/img/home/contato/o-email.png" alt="icone de email formulario" srcset="" class="imgFormulario">
+                    <div class="inputContatoCampo">
+                      <label for="email_User">*E-mail</label>
+                      <input type="email_User" name="email_User" id="email_User" placeholder="Digite seu E-mail" autocomplete="off">
+                    </div>
+                  </div>
+                  <!--campo inserção telefone-->
+                  <div class="campoContato">
+                    <img src="src/assets/img/home/contato/telefone.png" alt="" srcset="" class="imgFormulario">
+                    <div class="inputContatoCampo">
+                      <label for="telefone">Telefone</label>
+                      <input type="tel" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx" autocomplete="off">
+                    </div>
+                  </div>
+                  <!--campo inserção assunto-->
+                  <div class="campoContato">
+                    <img src="src/assets/img/home/contato/livro.png" alt="" srcset="" class="imgFormulario">
+                    <div class="inputContatoCampo">
+                      <label for="assunto">*Assunto</label>
+                      <input type="text" name="assunto" id="assunto" placeholder="Digite o assunto" autocomplete="off">
+                    </div>
+                  </div>
+                  <!--campo inserção mensagem-->
+                  <label for="mensagemUsuario">
+                    <img src="" alt="" srcset="">
+                    *Mensagem
+                  </label>
+                  <textarea name="mensagemUsuario" id="mensagemUsuario" cols="30" rows="5" placeholder="Digite sua mensagem neste campo" autocomplete="off"></textarea>
+                  <!--campo inserção botão submit-->
+                  <button type="submit" id="BtnSubmit" onmouseover="document.bgColor='greem'">Enviar</button>
+                  <!--campo de configuração da chave de acesso para envio das mensagens--><!--
+                  <input type="hidden" name="accessKey" value="71a633c5-26c7-4e43-b9a7-459217549bd7">
+                  <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
+                  <input type="hidden" name="subject" value="contato do webpage pessoal">
+                  <input type="hidden" name="replyTo" value="diegodesouza.souza@gmail.com">
+                  <input type="text" name="honeypot" style="display: none;">
+                  -->
+                </form>
+              </section>
+            </section>
+          </section>
+          
+        </section>
+    </main>
+    <section id="whatsapp-main">
+      <a href="https://wa.me/5511961969969?text=Estou+vindo+atraves+do+site+e+gostaria+de+falar+com+um+consultor" target="_blank" rel="noopener noreferrer"><img src="src/assets/img/home/whatsapp2.png" alt="Icone do Whatsapp do rancho da saudade"></a>
+  </section>
+  <footer id="footer">
+    <footer>
+        <section id="containerFooter">
+            <section id="containerFooter__Phrase"></section>
+            <section id="containerFooter__separacao">
+              
+              <h3>Quer ver um pouco mais sobre mim.</h3>
+              
+            </section>
+            <section id="containerFooter__midia">
+              <a href="https://www.instagram.com/jahdigao/" target="_blank"><img src="src/assets/img/home/footer/instagram.png" alt="icone link do Instagram"></a>
+              <a href="https://github.com/Diego-de-Souza" target="_blank"><img src="src/assets/img/home/footer/github.png" alt="icone link do GitHub"></a>
+              <a href="https://www.linkedin.com/in/diego-de-souza-lima-campus-expert/" target="_blank"><img src="src/assets/img/home/footer/linkedin.png" alt="icone link do linkedin"></a>
+            </section>
+            <section id="containerFooter__finally">
+              <p>Desenvolvido por <strong>de Souza Lima</strong></p>
+              <p>&#169; CopyRight 2023</p>
+            </section>
+          </section>
+    </footer>
 </body>
 </html>
