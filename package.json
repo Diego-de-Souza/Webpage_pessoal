@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "serve":"firebase emulators:start",
+    "deploy":"firebase deploy --only hosting",
+    "dev":"dev",
+    "build":"build && export",
+    "start":"start",
+    "lint":"lint"
+  },
+  "keywords": [],
+  "author": {
+    "name":"Diego de Souza Lima"
+  },
+  "devDependencies": {
+    "firebase-tools": "^12.9.1"
+  }
+}

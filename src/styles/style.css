@@ -948,7 +948,7 @@ input:focus, textarea:focus{
   }
 }
 /*Estilização dos componentes para modo mobile*/
-@media screen and (max-width: 480px){
+@media screen and (max-width: 500px){
   /*estilização do menu de rede social superior que só aparece em mobile*/
   /*conatainer externo*/
   #containerredes__midia {
@@ -1168,10 +1168,10 @@ input:focus, textarea:focus{
   }
   /*estilização whatsapp para mobile*/
   #whatsapp-main{
-    display: none;
+    display: block;
     position: absolute;
     z-index: 99999;
-    right: 5em;
+    right: 3.5em;
     top: 90%;
   }
   #whatsapp-main > a >img{
@@ -1179,8 +1179,8 @@ input:focus, textarea:focus{
     position: fixed;
     bottom: 2em;
     z-index: 99999;
-    width: 64px;
-    height: 64px;
+    width: 40px;
+    height: 40px;
   }
   /*estilização do footer para mobile*/
   #containerFooter {
