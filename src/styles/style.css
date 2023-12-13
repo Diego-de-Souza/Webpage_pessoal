@@ -198,7 +198,13 @@ h1{
     border-radius: 50%;
     background-color: #D9C49C;
     margin-left: 2em;
-    background-image: url(sinal-de-adicao.png);
+    
+}
+.imgAdicaoMenuTitleBtnAcess {
+  background-image: url(../assets/img/home/sinal-de-adicao.png);
+}
+.imgSubtracaoMenuTitleBtnAcess{
+  background-image: url(../assets/img/home/menos.png);
 }
 #containerAbout__title__section, #containerAbility__title__section, #containerEducation__title__section, #containerPortfolio__title__section, #containerCertificates__title__section, #containerContact__title__section{
   display: -webkit-box;
