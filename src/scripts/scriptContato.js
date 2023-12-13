@@ -11,21 +11,25 @@ containerTitleContato.addEventListener('click', ()=>{
     if(statusContato == false){ 
       containerPaiContato.style.height = 'auto';
       statusContato = true;
-      btnAcessContato.style.backgroundImage= "url(../assets/img/home/menos.png)";
+      btnAcessContato.classList.remove('imgAdicaoMenuTitleBtnAcess');
+      btnAcessContato.classList.add('imgSubtracaoMenuTitleBtnAcess');
   }else{
       containerPaiContato.style.height = '3.5rem';
       statusContato=false
-      btnAcessContato.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
+      btnAcessContato.classList.remove('imgSubtracaoMenuTitleBtnAcess');
+      btnAcessContato.classList.add('imgAdicaoMenuTitleBtnAcess');
   }
   }else{
     if(statusContato == false){ 
         containerPaiContato.style.height = 'auto';
         statusContato = true;
-        btnAcessContato.style.backgroundImage= "url(../assets/img/home/menos.png)";
+        btnAcessContato.classList.remove('imgAdicaoMenuTitleBtnAcess');
+        btnAcessContato.classList.add('imgSubtracaoMenuTitleBtnAcess');
     }else{
         containerPaiContato.style.height = '5rem';
         statusContato=false
-        btnAcessContato.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
+        btnAcessContato.classList.remove('imgSubtracaoMenuTitleBtnAcess');
+      btnAcessContato.classList.add('imgAdicaoMenuTitleBtnAcess');
     }
   }
 });
