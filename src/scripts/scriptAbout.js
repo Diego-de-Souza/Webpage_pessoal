@@ -11,7 +11,7 @@ containerTitleAbout.addEventListener('click', ()=>{
         if(statusAbout == false){ 
             containerPaiAbout.style.height = 'auto';
             statusAbout = true;
-            btnAcess.style.backgroundImage= "url(../assets/img/home/menos.png)";
+            btnAcess.style.backgroundImage= "url(menos.png)";
             for(let x=0;x<classeImagem.length;x++){
                 classeImagem[x].style.display='block';
             }
@@ -19,7 +19,7 @@ containerTitleAbout.addEventListener('click', ()=>{
         }else{
             containerPaiAbout.style.height = '3.5rem';
             statusAbout=false
-            btnAcess.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
+            btnAcess.style.backgroundImage='url(sinal-de-adicao.png)';
             for(let x=0;x<classeImagem.length;x++){
                 classeImagem[x].style.display='none'
             }
@@ -29,7 +29,7 @@ containerTitleAbout.addEventListener('click', ()=>{
         if(statusAbout == false){ 
             containerPaiAbout.style.height = 'auto';
             statusAbout = true;
-            btnAcess.style.backgroundImage= "url(../assets/img/home/menos.png)";
+            btnAcess.style.backgroundImage= "url(menos.png)";
             for(let x=0;x<classeImagem.length;x++){
                 classeImagem[x].style.display='block';
             }
@@ -37,7 +37,7 @@ containerTitleAbout.addEventListener('click', ()=>{
         }else{
             containerPaiAbout.style.height = '5rem';
             statusAbout=false
-            btnAcess.style.backgroundImage='url(../assets/img/home/sinal-de-adicao.png)';
+            btnAcess.style.backgroundImage='url(sinal-de-adicao.png)';
             for(let x=0;x<classeImagem.length;x++){
                 classeImagem[x].style.display='none'
             }
