@@ -698,7 +698,7 @@
                     <img src="src/assets/img/home/contato/usuario-masculino.png" alt="icone nome usuario" srcset="" class="imgFormulario">
                     <div class="inputContatoCampo">
                       <label for="username">*Nome</label>
-                      <input type="text" name="username" id="username" placeholder="Digite seu nome" autocomplete="off" required oninvalid="this.setCustomValidity('o nome deve conter no minimo 3 caracteres.')">
+                      <input type="text" name="username" id="username" placeholder="Digite seu nome" autocomplete="off" required minlength="3">
                     </div>
                   </div>
                   <!--campo de inserção do email-->
@@ -732,15 +732,17 @@
                   </label>
                   <textarea name="mensagemUsuario" id="mensagemUsuario" cols="30" rows="5" placeholder="Digite sua mensagem neste campo" autocomplete="off"></textarea>
                   <!--campo inserção botão submit-->
-                  <button type="submit" id="BtnSubmit" onmouseover="document.bgColor='greem'">Enviar</button>
-                  <!--campo de configuração da chave de acesso para envio das mensagens--><!--
-                  <input type="hidden" name="accessKey" value="71a633c5-26c7-4e43-b9a7-459217549bd7">
-                  <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/index.html">
-                  <input type="hidden" name="subject" value="contato do webpage pessoal">
-                  <input type="hidden" name="replyTo" value="diegodesouza.souza@gmail.com">
-                  <input type="text" name="honeypot" style="display: none;">
-                  -->
+                  <button type="submit" id="BtnSubmit" >Enviar</button>
+                  
                 </form>
+                <span class="popup">
+                  <div class="containerButtonpopup"><button class="button_popup">X</button></div>
+                  <p class="msgPopupErro">Para me enviar uma mensagem, todos os campos com asteristico "*" devem estar preenchidos corretamente.</p>
+                  <p class="msgPopupErro">Preciso de todos os dados para poder entender o motivo do contato e poder retornar.</p>
+                  <p class="msgPopupSucesso">Mensagem enviada com sucesso!</p>
+                  <p class="msgPopupSucesso">Em breve retornarei o contato.</p>
+                  <p class="msgPopupSucesso">Desde já agradeço o contato!</p>
+                </span>
               </section>
             </section>
           </section>
